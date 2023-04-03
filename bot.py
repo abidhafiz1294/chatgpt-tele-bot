@@ -15,7 +15,7 @@ bot = Bot(token='5722175251:AAGac_Wtg6oJVLBJNuTLLLl7a8TBLJtsoQY')
 dispatcher = Dispatcher(bot)
 
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 
 # Handle incoming messages
