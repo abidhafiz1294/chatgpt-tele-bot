@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # Run the bot.py script
-CMD ["python", "bot.py"]
+CMD ["python", "bot.py", "0.0.0.0:8000"]
