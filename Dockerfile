@@ -10,5 +10,8 @@ COPY . /app
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
 
+# Expose the port on which your app runs
+EXPOSE 8080
+
 # Run the bot.py script
-CMD ["python", "bot.py", "0.0.0.0:8000"]
+CMD ["python", "bot.py"]
